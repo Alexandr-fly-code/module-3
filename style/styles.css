@@ -3,3 +3,87 @@
     padding: 0;
     box-sizing: border-box;
 }
+li{
+    list-style-type: none;
+}
+.background-img{
+    background-image: url("../img/fon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper{
+    width: 480px;
+    background: white;
+    margin: auto;
+    padding: 60px 40px;
+}
+
+/* Agency Profile */
+.size-agency-profile{
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 25px;
+}
+.gellentesque{
+    margin: 30px 0 25px 0;
+    font-size: 14px;
+}
+.fgo,.vcem,.what-we-offer1,.ourprinciples5,.ourprinciples3,.ourprinciples1{
+    font-size: 14px;
+}
+.text-agency-profile,.ourprinciples2,.ourprinciples4,.ourprinciples6,.what-we-offer2{
+    font-size: 12px;
+}
+
+/* Our Principles */
+
+.our-principles{
+    margin: 55px 0 0 0;
+}
+.size-agency-profile{
+    margin-bottom: 32px;
+}
+.ourprinciples1,.ourprinciples3,.ourprinciples5{
+    margin: 0 0 16px 0;
+}
+.ourprinciples2,.ourprinciples4,.ourprinciples6{
+    margin: 0 0 30px 0;
+}
+
+/* What We offer */
+
+.what-we-offer{
+    margin: 110px 0 30px 0;
+}
+.what-we-offer1{
+    margin: 0 0 23px 0;
+}
+.what-we-offer2{
+    margin: 0 0 40px 0;
+}
+
+
+
+
+/* Стили для двух последних блоков fgo и vcem */
+.fgo,.vcem{
+width: 180px;
+/* background: red; */
+display: inline-block;
+vertical-align: top;
+text-align: left;
+line-height: 22px;
+}
+.vcem{
+width: 180px;
+/* background: green; */
+display: inline-block;
+vertical-align: top;
+}
+.bottom-block{
+ text-align: center;
+}
+
+
+
